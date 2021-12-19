@@ -1,0 +1,95 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+    background-image: url(https://img1.picmix.com/output/pic/normal/7/9/3/4/4794397_2fdcb.gif);
+    background-size: cover;
+}
+
+#container{
+	width: auto;
+	height: auto;
+	margin: 20px auto;	
+}
+
+h1{
+    color: honeydew;
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 43px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px #000000;
+}
+#calculator{
+    color: rgb(46, 76, 209);
+	width: 320px;
+	height: 520px;
+    background-color: rgb(178, 239, 247);
+    opacity: 0.8;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgb(81, 70, 235), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#result{
+    height: 120px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgb(248, 211, 243), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(247, 101, 101);
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.number{
+    background-color: #eaedef;
+    box-shadow: 0 4px 8px 0 rgb(231, 184, 231), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.operator{
+    background-color:#3abd9c;
+    box-shadow: 0 4px 8px 0 rgb(231, 184, 231), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.number, .operator{
+    cursor: pointer;
+}
+.number:active, .operator:active{
+    font-size: 13px;
+}
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+
+button:nth-child(18){
+    width: 130px;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+
+
